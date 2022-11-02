@@ -1,11 +1,11 @@
-class Greetings{
+public class Greetings {
   public static void main(String[] args) {
+   
+    String greeting = "Hello";
+    String name = "Michael";
+    
+    String result = greeting + " " + name;
 
-   String greetings = "Hello";
-   String name = "Michael";
-
-   System.out.printf(greetings + name);
-
-
+    System.out.println(result);
   }
 }
